@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-dotnet new console -o 0-new_project
-dotnet restore
-dotnet build
+dotnet new console -n 1-new_project
+dotnet build 1-new_project

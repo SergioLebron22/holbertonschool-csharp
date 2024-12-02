@@ -1,0 +1,15 @@
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\bin\Debug\net8.0\3-writeline.exe
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\bin\Debug\net8.0\3-writeline.deps.json
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\bin\Debug\net8.0\3-writeline.runtimeconfig.json
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\bin\Debug\net8.0\3-writeline.dll
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\bin\Debug\net8.0\3-writeline.pdb
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.AssemblyInfoInputs.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.AssemblyInfo.cs
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.csproj.CoreCompileInputs.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.sourcelink.json
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.dll
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\refint\3-writeline.dll
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.pdb
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\3-writeline.genruntimeconfig.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\net8.0\ref\3-writeline.dll

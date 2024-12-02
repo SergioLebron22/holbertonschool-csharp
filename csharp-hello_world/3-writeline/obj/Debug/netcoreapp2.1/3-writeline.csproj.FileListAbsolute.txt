@@ -1,0 +1,6 @@
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.csproj.AssemblyReference.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.AssemblyInfoInputs.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.AssemblyInfo.cs
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.csproj.CoreCompileInputs.cache
+C:\Users\slebr\Documents\HB Spec\holbertonschool-csharp\csharp-hello_world\3-writeline\obj\Debug\netcoreapp2.1\3-writeline.sourcelink.json

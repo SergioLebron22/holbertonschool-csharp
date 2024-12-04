@@ -15,7 +15,12 @@ class Program {
             else {
                 Console.Write($"{i} ");
             }
+            if (num != 100) {
+                Console.Write(" ");
+            }
+            else {
+                Console.Write("\n");
+            }
         }
-        Console.Write("\n");
     }
 }

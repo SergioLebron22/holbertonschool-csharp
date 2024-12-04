@@ -2,24 +2,14 @@
 
 class Line {
     public static void PrintDiagonal(int length){
-        int i;
-        int c;
-
-        c = 0;
-
-        while (length > 0) {
-            i = c;
-            while (i > 0) {
-                Console.Write(" ");
-                i--;
+        if (length > 0) {
+            for (int i = 1; i <= length; i++){
+                for (int j = 1; j < i; j++) {
+                    Console.Write(" ");
+                }
+                Console.Write("\\\n");
             }
-            Console.Write("\\");
-            Console.Write("\n");
-            c++;
-            length--;
         }
-        if (c <= 0) {
-            Console.Write("\n\n");
-        }
+        Console.Write("\n");
     }
 }

@@ -18,8 +18,8 @@ class Line {
             c++;
             length--;
         }
-        if (c < 1) {
-            Console.Write("\n");
+        if (c <= 0) {
+            Console.Write("\n\n");
         }
     }
 }

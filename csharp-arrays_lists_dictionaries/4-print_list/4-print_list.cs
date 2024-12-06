@@ -8,11 +8,16 @@ class List {
             return null;
         }
 
-        List<int> newList = [];
+        List<int> newList = new List<int>();
 
         for (int i = 0; i < size; i++) {
             newList.Add(i);
-            Console.Write("{0} ", i);
+            if (i == size - 1){
+                Console.Write($"{i}");
+            }
+            else {
+                Console.Write("{0} ", i);
+            }
         }
         Console.WriteLine();
         return newList;

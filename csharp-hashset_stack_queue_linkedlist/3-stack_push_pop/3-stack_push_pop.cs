@@ -13,7 +13,7 @@ class MyStack {
         }
 
         if (aStack.Contains(search)) {
-            Console.WriteLine($"Stack contains {search}: {aStack.Contains(search)}");
+            Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
 
             while (aStack.Contains(search)) {
                 aStack.Pop();

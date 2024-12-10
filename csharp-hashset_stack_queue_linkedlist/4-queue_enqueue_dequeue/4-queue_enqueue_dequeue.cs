@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class MyQueue {
     public static Queue<string> Info(Queue<string> aQueue, string newItem,string search) {
-        Console.WriteLine($"Number of items {aQueue.Count}");
+        Console.WriteLine($"Number of items: {aQueue.Count}");
 
         if (aQueue.Count == 0 ) {
             Console.WriteLine("Queue is empty");

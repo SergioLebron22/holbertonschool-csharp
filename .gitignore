@@ -1,0 +1,5 @@
+bin/
+obj/
+*-main.cs
+*.ps1
+Debug/

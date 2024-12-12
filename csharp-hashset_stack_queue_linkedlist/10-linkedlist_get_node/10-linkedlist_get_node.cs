@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 class LList {
     public static int GetNode(LinkedList<int> myLList, int n) {
-        if (n < 0 || n >= myLList.Count) [
-            return 0;
-        ]
-
+        
         LinkedListNode<int> current = myLList.First;
-        for (int i=0; i < n; i++) {
+        for (int i=0; i < myLList.Count; i++) {
+            if (n == i) {
+                return current.Value;
+            }
             current = current.Next;
         }
-        return current.Value;
+        return 0;
     }
 }

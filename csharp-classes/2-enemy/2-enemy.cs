@@ -23,7 +23,7 @@ namespace Enemies {
         /// <exception cref="ArgumentException"></exception>
         public Zombie(int value) {
             if (value < 0) throw new ArgumentException("Health must be greater or equal to 0");
-            health = value;
+            else health = value;
         }
     }
 }

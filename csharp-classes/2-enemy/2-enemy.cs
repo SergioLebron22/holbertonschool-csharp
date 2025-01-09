@@ -19,11 +19,9 @@ namespace Enemies {
         /// <summary>
         /// Constructor for zombie class
         /// </summary>
-        /// <param name="value"></param>
-        /// <exception cref="ArgumentException"></exception>
         public Zombie(int value) {
-            if (value < 0) throw new ArgumentException("Health must be greater or equal to 0");
-            else health = value;
+            if (value >= 0) health = value;
+            else throw new ArgumentException("Health must be greater than or equal to 0");
         }
     }
 }

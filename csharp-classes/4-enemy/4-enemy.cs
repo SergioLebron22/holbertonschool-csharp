@@ -5,14 +5,9 @@ namespace Enemies {
     /// Represents a Zombie enemy character.
     /// </summary>
     public class Zombie {
-        /// <summary>
-        /// Represents the health of the zombie
-        /// </summary>
+        //health: represents the zombie's health
+        //name: represents the zombie's name
         private int health;
-
-        /// <summary>
-        /// Represents the name of the zombie
-        /// </summary>
         private string name = "(No name)";
 
         /// <summary>

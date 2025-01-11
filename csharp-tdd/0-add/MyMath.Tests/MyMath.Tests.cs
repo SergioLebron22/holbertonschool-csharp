@@ -1,46 +1,41 @@
 using MyMath;
 using NUnit.Framework;
 
-namespace MyMath.Tests{
-
-    /// <summary>
-    /// Tests class
-    /// </summary>
+namespace MyMath.Tests
+{
     [TestFixture]
     public class Tests
     {
-        /// <summary>
-        /// Test sum of two positive numbers
-        /// </summary>
+        ///<summarry>
+        ///test a normal sum
+        ///</summary>
         [Test]
         public void Sum2()
         {
-            Assert.That(Operations.Add(4, 7), Is.EqualTo(11));
+            Assert.That(Operations.Add(1, 5), Is.EqualTo(6));
         }
 
-        /// <summary>
-        /// test the sum of a min and max value
-        /// </summary>
+        ///<summarry>
+        ///test a min Value plus max value
+        ///</summary>
         [Test]
-        public void SumMinMax()
+        public void SumMinAndMax()
         {
             int min = int.MinValue;
             int max = int.MaxValue;
             Assert.That(Operations.Add(min, max), Is.EqualTo(min + max));
         }
-
-        /// <summary>
-        /// test the sum of a negative number 
-        /// </summary>
+        ///<summarry>
+        ///test a sum with a negative
+        ///</summary>
         [Test]
         public void SumNegative()
         {
-            Assert.That(Operations.Add(10, -3), Is.EqualTo(7));
+            Assert.That(Operations.Add(-15, 20), Is.EqualTo(-15 + 20));
         }
-
-        /// <summary>
-        /// test the sum of zeros
-        /// </summary>
+        ///<summarry>
+        ///test a sum with zero
+        ///</summary>
         [Test]
         public void SumZero()
         {

@@ -2,6 +2,10 @@ using MyMath;
 using NUnit.Framework;
 
 namespace MyMath.Tests{
+
+    /// <summary>
+    /// Tests class
+    /// </summary>
     [TestFixture]
     public class Tests
     {

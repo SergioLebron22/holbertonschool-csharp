@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// Obj class
+/// </summary>
 class Obj {
     /// <summary>
     /// A method that checks if the object passed is int

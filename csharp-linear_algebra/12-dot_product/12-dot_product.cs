@@ -10,5 +10,6 @@ class VectorMath {
             }
             return result;
         }
+        return -1;
     }
 }

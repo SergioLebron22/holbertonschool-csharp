@@ -11,15 +11,15 @@ public class Queue<T>
     public class Node {
 
         public T value;
-        public Node? next = null;
+        public Node next = null;
 
         public Node(T value) {
             this.value = value;
         }
     }
 
-    public Node? head;
-    public Node? tail;
+    public Node head;
+    public Node tail;
     public int count = 0;
 
     public void Enqueue(T value) {
@@ -30,7 +30,7 @@ public class Queue<T>
             tail = newNode;
         }
         else {
-            tail!.next = newNode;
+            tail.next = newNode;
             tail = newNode;
         }
 

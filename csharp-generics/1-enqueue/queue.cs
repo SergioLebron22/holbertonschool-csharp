@@ -40,6 +40,4 @@ public class Queue<T>
     public int Count() {
         return count;
     }
-
-
 }

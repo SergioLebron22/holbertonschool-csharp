@@ -26,16 +26,22 @@ class TestObject : Base, IInteractive, IBreakable, ICollectable {
     public int durability {get; set;}
     public bool isCollected {get; set;}
     public string name {get; set;}
-    public void Break() {
-        
-    }
-    
-    public void Collect() {
-
-    }
+    class TestObject : Base, IInteractive, IBreakable, ICollectable {
+    public int durability { get; set; }
+    public bool isCollected { get; set; }
 
     public void Interact() {
-
+        Console.WriteLine("Interacting with the object.");
     }
+
+    public void Break() {
+        Console.WriteLine("Breaking the object.");
+    }
+
+    public void Collect() {
+        isCollected = true;
+        Console.WriteLine("Collecting the object.");
+    }
+}
 }
 

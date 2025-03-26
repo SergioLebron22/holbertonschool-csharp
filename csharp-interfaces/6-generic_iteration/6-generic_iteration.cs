@@ -146,20 +146,24 @@ class Key : Base, ICollectable {
     }
 }
 
-class Objs<T> : IEnumerable<T> {
+class Objs<T> : IEnumerable<T>
+{
     List<T> objs = new List<T>();
 
-    public void Add(T obj) {
+
+    public void Add(T obj)
+    {
         objs.Add(obj);
     }
-
-    public IEnumerator<T> GetEnumerator() {
-        foreach (T obj in objs) {
+    public IEnumerator<T> GetEnumerator()
+    {
+        foreach (T obj in objs)
+        {
             yield return obj;
         }
     }
-
-    IEnumerator IeEnumerable.GetEnumerator() {
+    IEnumerator IEnumerable.GetEnumerator()
+    {
         return this.GetEnumerator();
     }
 }

@@ -92,6 +92,9 @@ class Decoration : Base, IInteractive, IBreakable {
     public int durability {get; set;}
 
     public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false) {
+        if (durability <= 0) {
+            throw new Exception("Durability must be greater than 0");
+        }
         this.name = name;
         this.durability = durability;
         this.isQuestItem = isQuestItem;
@@ -99,7 +102,7 @@ class Decoration : Base, IInteractive, IBreakable {
 
     public void Interact() {
         if (durability <= 0) {
-            Console.WriteLine($"The {name} has been broken");
+            Console.WriteLine($"The {name} has been broken.");
         }
         else if (isQuestItem) {
             Console.WriteLine($"You look at the {name}. There's a key inside.");

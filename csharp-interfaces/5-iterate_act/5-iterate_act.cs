@@ -149,16 +149,14 @@ class Key : Base, ICollectable {
 class RoomObjects {
     public static void IterateAction(List<Base> roomObjects, Type type) {
         foreach (Base obj in roomObjects) {
-            if (type.IsInstanceOfType(obj)){
-                if (obj is IInteractive interactiveObj) {
-                    interactiveObj.Interact();
-                }
-                if (obj is IBreakable breakableObj) {
-                    breakableObj.Break();
-                }
-                if (obj is ICollectable collectableObj) {
-                    collectableObj.Collect();
-                }
+            if (type == typeof(IInteractive) && obj is IInteractive) {
+                ((IInteractive)obj).Interact();
+            }
+            if (type == typeof(IBreakable) && obj is IBreakable) {
+                ((IBreakable)obj).Break();
+            }
+            if (type == typeof(ICollectable) && obj is ICollectable) {
+                ((ICollectable)obj).Collect();
             }
         }
     }

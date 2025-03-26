@@ -1,47 +1,78 @@
 ﻿using System;
 
-abstract class Base {
-    public string name;
+/// <summary>
+/// Base class
+/// </summary>
+abstract class Base
+{
+    public string name { get; set; }
 
-    public override string ToString() {
-        return $"{name} is a {this.GetType().Name}";
+    /// <summary>
+    /// Override ToString method
+    /// </summary>
+    /// <returns>string</returns>
+    public override string ToString()
+    {
+        return $"{name} is a {this.GetType()}";
     }
 }
 
-interface IInteractive {
+/// <summary>
+/// IInteractive interface
+/// </summary>
+interface IInteractive
+{
     void Interact();
 }
 
-interface IBreakable {
-    int durability {get; set;}
+/// <summary>
+/// IBreakable interface
+/// </summary>
+interface IBreakable
+{
+    int durability { get; set; }
     void Break();
 }
 
-interface ICollectable {
-    bool isCollected {get;}
+/// <summary>
+/// ICollectable interface
+/// </summary>
+interface ICollectable
+{
+    bool isCollected { get; set; }
     void Collect();
 }
 
-class TestObject : Base, IInteractive, IBreakable, ICollectable {
-    public int durability {get; set;}
-    public bool isCollected {get; set;}
-    public string name {get; set;}
-    class TestObject : Base, IInteractive, IBreakable, ICollectable {
+/// <summary>
+/// TestObject class
+/// </summary>
+class TestObject : Base, IInteractive, IBreakable, ICollectable
+{
     public int durability { get; set; }
     public bool isCollected { get; set; }
 
-    public void Interact() {
+    /// <summary>
+    /// Interact method implementation
+    /// </summary>
+    public void Interact()
+    {
         Console.WriteLine("Interacting with the object.");
     }
 
-    public void Break() {
+    /// <summary>
+    /// Break method implementation
+    /// </summary>
+    public void Break()
+    {
         Console.WriteLine("Breaking the object.");
     }
 
-    public void Collect() {
+    /// <summary>
+    /// Collect method implementation
+    /// </summary>
+    public void Collect()
+    {
         isCollected = true;
         Console.WriteLine("Collecting the object.");
     }
 }
-}
-

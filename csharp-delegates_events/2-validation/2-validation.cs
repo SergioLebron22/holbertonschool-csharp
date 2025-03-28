@@ -27,9 +27,7 @@ class Player {
             damage = 0;
         }
         Console.WriteLine($"{name} takes {damage} damage!");
-
-        float newHp = hp - damage;
-        ValidateHP(newHp);
+        ValidateHP(hp - damage);
     }
 
     public void HealDamage(float heal) {
@@ -37,14 +35,12 @@ class Player {
             heal = 0;
         }
         Console.WriteLine($"{name} heals {heal} HP!");
-
-        float newHp = hp + heal;
-        ValidateHP(newHp);
+        ValidateHP(hp + heal);
     }
 
     public void ValidateHP(float newHp) {
         if (newHp < 0) {
-            newHp = 0;
+            hp = 0;
         }
         else if (newHp > maxHp) {
             hp = maxHp;
